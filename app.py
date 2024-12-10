@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Timeweb Cloud + Docker + Flask = ❤️"
+    return "New commit!"
 
 if __name__ == "__main__":
     port = 3478
